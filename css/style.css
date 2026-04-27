@@ -1,9 +1,9 @@
 
     :root {
         /* Light Theme */
-        --bg-color: #F0F1F2;
+        --bg-color: #BBD3F2;
         --text-color: #171717;
-        --text-muted: #0B3B59; 
+        --text-muted: #081B26; 
         --primary-color: #8b5cf6;
         --secondary-color: #0ea5e9;
         --surface-color: rgba(255, 255, 255, 0.7);
