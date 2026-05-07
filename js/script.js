@@ -34,7 +34,7 @@
         });
 
         // Typing Effect Logic
-        const textToType = "Il Tuo Nome";
+        const textToType = "Team 5";
         const typeWriterElement = document.getElementById('typewriter');
         let charIndex = 0;
         let isDeleting = false;
