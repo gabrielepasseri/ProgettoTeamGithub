@@ -1,8 +1,10 @@
-        // Theme Toggle Logic
+ // Theme Toggle Logic
         const themeToggleBtn = document.getElementById('theme-toggle');
         const htmlElement = document.documentElement;
         const lightIcon = document.querySelector('.light-icon');
         const darkIcon = document.querySelector('.dark-icon');
+
+    
 
         function setTheme(theme) {
             if (theme === 'dark') {
@@ -34,7 +36,7 @@
         });
 
         // Typing Effect Logic
-        const textToType = "Team 5";
+        const textToType = "Team Khalifa";
         const typeWriterElement = document.getElementById('typewriter');
         let charIndex = 0;
         let isDeleting = false;
@@ -109,6 +111,7 @@
                             if (link.getAttribute('href') === `#${id}`) {
                                 document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
                                 link.classList.add('active');
+                                
                             }
                         });
                     }
@@ -127,3 +130,10 @@
             card.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
             observer.observe(card);
         });
+
+         document.querySelectorAll('.progress-bar').forEach(bar => {
+            bar.style.opacity = 0;
+            bar.style.transition = 'opacity 1s ease-out';
+            observer.observe(bar);
+        });
+        
